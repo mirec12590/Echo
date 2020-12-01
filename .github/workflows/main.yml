@@ -36,6 +36,6 @@ jobs:
           echo test, and deploy your project.
       - name: calibreapp/github-actions
       # You may pin to the exact commit or the version.
-       # uses: calibreapp/github-actions@3d9e6b87da3b52cb96bb582253f7df0ad0ebd7fa
-      uses: calibreapp/github-actions@1.0.2
+     # uses: calibreapp/github-actions@3d9e6b87da3b52cb96bb582253f7df0ad0ebd7fa
+      - uses: calibreapp/github-actions@1.0.2
           
