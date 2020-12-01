@@ -23,6 +23,8 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-    - name: SendGrid Action
-      uses: peter-evans/sendgrid-action@v1.0.1
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@v1.4
+      with:
+        projectBaseDir: sonar.echo
   
